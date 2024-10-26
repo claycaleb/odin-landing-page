@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1f2937;
+    background-color: #3B413C;
 }
 
 .logo img{
@@ -36,7 +36,7 @@ a {
 .hero {
     padding: 64px 150px;
     display: flex;
-    background-color: #1f2937;
+    background-color: #3B413C;
 }
 
 .hero .content {
@@ -58,7 +58,7 @@ a {
 }
 
 .content button {
-    background-color: #3382f6;
+    background-color: #6B9027;
     color: #f9faf8;
     font-size: 16px;
     font-weight: 900;
@@ -70,11 +70,14 @@ a {
 
 .hero .image {
     flex: 1;
-    background-color: #777;
-    color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.image img {
+    border-radius: 12px;
+    width: 100%;
 }
 
 .info {
