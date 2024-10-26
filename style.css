@@ -94,8 +94,7 @@ a {
 .info .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 32px;
+    justify-content: space-between;
 }
 
 .pair {
@@ -115,4 +114,21 @@ a {
 .pair .caption {
     padding: 8px 0;
     color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 64px 250px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote .source {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
 }
