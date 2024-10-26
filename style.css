@@ -162,3 +162,12 @@ a {
     border-radius: 8px;
     padding: 8px 32px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 32px;
+}
