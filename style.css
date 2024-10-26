@@ -77,3 +77,41 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.info {
+    padding: 48px 250px;
+    text-align: center;
+}
+
+.info .text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 36px;
+}
+
+.info .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.pair {
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pair .image {
+    height: 150px;
+    width: 150px;
+    border: solid #3382f6;
+    border-radius: 12px;
+}
+
+.pair .caption {
+    padding: 8px 0;
+    color: #1f2937;
+}
