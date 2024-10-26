@@ -66,6 +66,7 @@ a {
     border: none;
     border-radius: 8px;
     padding: 8px 32px;
+    margin-bottom: 8px;
 }
 
 .hero .image {
