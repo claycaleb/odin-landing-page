@@ -33,6 +33,22 @@ a {
     color: #e5e7eb;
 }
 
+#katana:hover {
+    color: #2d459f;
+}
+
+#sai:hover {
+    color:#aa201d;
+}
+
+#staff:hover{
+    color:#6c388c;
+}
+
+#nunchuks:hover {
+    color:#ee8715
+}
+
 .hero {
     padding: 16px 150px 64px 150px;
     display: flex;
@@ -54,7 +70,7 @@ a {
 .content .subtext {
     color:#e5e7eb;
     font-size: 16px;
-    margin-bottom: 12px;
+    margin: 16px 0;
 }
 
 .content button {
@@ -130,19 +146,19 @@ a {
 }
 
 #leo {
-    border: solid rgb(45, 69, 159)
+    border: solid #2d459f;
 }
 
 #raph {
-    border: solid rgb(170, 32, 29)
+    border: solid #aa201d;
 }
 
 #don {
-    border: solid rgb(108, 56, 140);
+    border: solid #6c388c;
 }
 
 #mikey {
-    border: solid rgb(238, 135, 21)
+    border: solid #ee8715;
 }
 
 .pair .caption {
@@ -188,7 +204,8 @@ a {
 }
 
 .call .subtext {
-    color: #e5e7eb;   
+    color: #e5e7eb;
+    margin-top: 4px;
 }
 
 .call button {
