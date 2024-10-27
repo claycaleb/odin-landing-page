@@ -34,14 +34,14 @@ a {
 }
 
 .hero {
-    padding: 64px 150px;
+    padding: 16px 150px 64px 150px;
     display: flex;
+    gap: 16px;
     background-color: #3B413C;
 }
 
 .hero .content {
     flex: 1;
-    padding-right: 24px;
 }
 
 .content .text {
@@ -53,7 +53,7 @@ a {
 
 .content .subtext {
     color:#e5e7eb;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 12px;
 }
 
@@ -65,7 +65,6 @@ a {
     border: none;
     border-radius: 8px;
     padding: 8px 32px;
-    margin-bottom: 8px;
 }
 
 .hero .image {
@@ -73,6 +72,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .image img {
@@ -86,7 +86,7 @@ a {
 }
 
 .info .text {
-    color: #1f2937;
+    color: #3B413C;
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 36px;
@@ -108,13 +108,48 @@ a {
 .pair .image {
     height: 150px;
     width: 150px;
-    border: solid #3382f6;
     border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.info img {
+    height: 100%;
+    width: auto;
+}
+
+#raph img {
+    scale: 2;
+    transform: translate(0, 30px);
+}
+
+#don img {
+    scale: 2;
+    transform: translate(0, 15px);
+}
+
+#leo {
+    border: solid rgb(45, 69, 159)
+}
+
+#raph {
+    border: solid rgb(170, 32, 29)
+}
+
+#don {
+    border: solid rgb(108, 56, 140);
+}
+
+#mikey {
+    border: solid rgb(238, 135, 21)
 }
 
 .pair .caption {
     padding: 8px 0;
     color: #1f2937;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .quote {
@@ -123,7 +158,7 @@ a {
 }
 
 .quote .text {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 200;
     font-style: italic;
 }
@@ -173,3 +208,12 @@ a {
     background-color: #1f2937;
     padding: 32px;
 }
+
+/* 
+
+Orange: (R: 238, G: 135, B: 21)
+Blue: (R: 45, G: 69, B: 159)
+Purple: (R: 108, G: 56, B: 140)
+Red: (R: 170, G: 32, B: 29)
+
+*/
